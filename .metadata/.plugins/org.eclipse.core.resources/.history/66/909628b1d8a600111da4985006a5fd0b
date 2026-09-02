@@ -9,7 +9,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 public class FraudDectectionServiceApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Fraud Detection Service");
 		SpringApplication.run(FraudDectectionServiceApplication.class, args);
 	}
 
