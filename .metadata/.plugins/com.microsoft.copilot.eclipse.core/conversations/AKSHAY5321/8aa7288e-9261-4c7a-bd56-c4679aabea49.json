@@ -1,0 +1,102 @@
+{
+  "conversationId": "8aa7288e-9261-4c7a-bd56-c4679aabea49",
+  "title": "why i  can\u0027t see any logs in the notification serv...",
+  "requesterUsername": "AKSHAY5321",
+  "responderUsername": "GitHub Copilot",
+  "turns": [
+    {
+      "message": {
+        "text": "why i  can\u0027t see any logs in the notification service after kafkaListeners an event"
+      },
+      "currentDocument": {
+        "uri": "/notification-service/src/main/resources/application.yaml"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "Auto",
+      "chatMode": "Agent",
+      "customChatModeId": "Agent",
+      "needToolCallConfirmation": true,
+      "turnId": "5e9561d2-23d5-4763-a6ef-a18493797bce",
+      "role": "user",
+      "timestamp": "2026-08-05T11:02:04.444405900Z"
+    },
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [
+          {
+            "error": {
+              "message": "Oops, the model is not supported. Please try again.",
+              "code": 400
+            }
+          }
+        ],
+        "editAgentRounds": [],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "modelName": "GPT-5 mini",
+        "billingMultiplier": 1.0
+      },
+      "turnId": "13269535-aab0-4423-8f6d-a081de10124e",
+      "role": "copilot",
+      "timestamp": "2026-08-05T11:02:06.871228700Z"
+    },
+    {
+      "message": {
+        "text": "why i  can\u0027t see any logs in the notification service after kafkaListeners an event"
+      },
+      "currentDocument": {
+        "uri": "/notification-service/src/main/resources/application.yaml"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "Auto",
+      "chatMode": "Agent",
+      "customChatModeId": "file:///c%3A/snapshot/copilot-intellij/dist/assets/agents/Plan.agent.md",
+      "needToolCallConfirmation": true,
+      "turnId": "5a2659c3-690d-4d1c-bf1c-3359d2f0b5b9",
+      "role": "user",
+      "timestamp": "2026-08-05T11:02:45.686614200Z"
+    },
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [
+          {
+            "error": {
+              "message": "Oops, the model is not supported. Please try again.",
+              "code": 400
+            }
+          }
+        ],
+        "editAgentRounds": [],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "modelName": "GPT-5 mini",
+        "billingMultiplier": 1.0
+      },
+      "turnId": "cee5ba2b-1bc4-4195-9068-95f114777487",
+      "role": "copilot",
+      "timestamp": "2026-08-05T11:02:45.710064600Z"
+    }
+  ],
+  "creationDate": "2026-08-05T11:02:04.417093200Z",
+  "lastMessageDate": "2026-08-05T11:02:46.291410400Z"
+}

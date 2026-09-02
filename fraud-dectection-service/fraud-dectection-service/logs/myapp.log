@@ -1,0 +1,520 @@
+2026-08-05 00:15:16 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-08-05 00:15:17 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-05 00:15:17 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-05 00:15:22 INFO  [main] c.b.f.FraudDectectionServiceApplication - Starting FraudDectectionServiceApplication using Java 21.0.8 with PID 9128 (D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service\target\classes started by jangd in D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service)
+2026-08-05 00:15:22 INFO  [main] c.b.f.FraudDectectionServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-05 00:15:23 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-05 00:15:23 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-08-05 00:15:23 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2026-08-05 00:15:23 INFO  [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=7a65f9a3-fbf0-3875-8be7-366061e6ee30
+2026-08-05 00:15:23 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2026-08-05 00:15:23 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-05 00:15:23 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-05 00:15:23 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-05 00:15:23 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1534 ms
+2026-08-05 00:15:25 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2026-08-05 00:15:25 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2026-08-05 00:15:25 INFO  [main] c.b.f.FraudDectectionServiceApplication - Started FraudDectectionServiceApplication in 3.717 seconds (process running for 4.37)
+2026-08-05 16:57:56 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-08-05 16:57:56 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-05 16:57:56 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-05 16:58:05 INFO  [main] c.b.f.FraudDectectionServiceApplication - Starting FraudDectectionServiceApplication using Java 21.0.8 with PID 21704 (D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service\target\classes started by jangd in D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service)
+2026-08-05 16:58:05 INFO  [main] c.b.f.FraudDectectionServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-05 16:58:06 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-05 16:58:06 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-08-05 16:58:06 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-08-05 16:58:06 INFO  [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=7a65f9a3-fbf0-3875-8be7-366061e6ee30
+2026-08-05 16:58:06 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2026-08-05 16:58:06 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-05 16:58:06 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-05 16:58:06 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-05 16:58:06 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1300 ms
+2026-08-05 16:58:08 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2026-08-05 16:58:08 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2026-08-05 16:58:08 INFO  [main] c.b.f.FraudDectectionServiceApplication - Started FraudDectectionServiceApplication in 3.351 seconds (process running for 8.157)
+2026-08-05 16:58:11 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Recieved transaction for fraud check
+2026-08-05 16:58:11 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check null
+2026-08-05 16:58:11 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - 
+2026-08-05 16:58:11 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Recieved transaction for fraud check
+2026-08-05 16:58:11 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check null
+2026-08-05 16:58:11 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - 
+2026-08-05 16:58:11 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Recieved transaction for fraud check
+2026-08-05 16:58:11 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check null
+2026-08-05 16:58:11 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - 
+2026-08-05 16:58:11 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Recieved transaction for fraud check
+2026-08-05 16:58:11 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check null
+2026-08-05 16:58:11 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - 
+2026-08-05 16:58:11 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Recieved transaction for fraud check
+2026-08-05 16:58:11 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check null
+2026-08-05 16:58:11 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - 
+2026-08-05 16:58:11 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Recieved transaction for fraud check
+2026-08-05 16:58:11 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check null
+2026-08-05 16:58:11 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - 
+2026-08-05 16:58:32 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-08-05 16:58:32 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-05 16:58:32 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-05 16:58:35 INFO  [main] c.b.f.FraudDectectionServiceApplication - Starting FraudDectectionServiceApplication using Java 21.0.8 with PID 10416 (D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service\target\classes started by jangd in D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service)
+2026-08-05 16:58:35 INFO  [main] c.b.f.FraudDectectionServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-05 16:58:36 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-05 16:58:36 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-08-05 16:58:36 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2026-08-05 16:58:36 INFO  [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=7a65f9a3-fbf0-3875-8be7-366061e6ee30
+2026-08-05 16:58:36 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2026-08-05 16:58:36 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-05 16:58:36 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-05 16:58:36 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-05 16:58:36 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 944 ms
+2026-08-05 16:58:37 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2026-08-05 16:58:37 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2026-08-05 16:58:37 INFO  [main] c.b.f.FraudDectectionServiceApplication - Started FraudDectectionServiceApplication in 2.449 seconds (process running for 3.02)
+2026-08-05 16:59:34 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Recieved transaction for fraud check
+2026-08-05 16:59:34 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check null
+2026-08-05 16:59:34 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - 
+2026-08-05 17:00:37 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-08-05 17:00:37 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-05 17:00:37 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-05 17:00:40 INFO  [main] c.b.f.FraudDectectionServiceApplication - Starting FraudDectectionServiceApplication using Java 21.0.8 with PID 33016 (D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service\target\classes started by jangd in D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service)
+2026-08-05 17:00:40 INFO  [main] c.b.f.FraudDectectionServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-05 17:00:41 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-05 17:00:41 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-08-05 17:00:41 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-08-05 17:00:41 INFO  [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=7a65f9a3-fbf0-3875-8be7-366061e6ee30
+2026-08-05 17:00:41 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2026-08-05 17:00:41 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-05 17:00:41 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-05 17:00:41 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-05 17:00:41 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1082 ms
+2026-08-05 17:00:42 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2026-08-05 17:00:43 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2026-08-05 17:00:43 INFO  [main] c.b.f.FraudDectectionServiceApplication - Started FraudDectectionServiceApplication in 2.927 seconds (process running for 3.512)
+2026-08-05 17:01:13 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Recieved transaction for fraud check
+2026-08-05 17:01:13 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check null
+2026-08-05 17:01:13 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - 
+2026-08-05 17:30:29 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-08-05 17:30:30 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-05 17:30:30 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-05 17:30:37 INFO  [main] c.b.f.FraudDectectionServiceApplication - Starting FraudDectectionServiceApplication using Java 21.0.8 with PID 33040 (D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service\target\classes started by jangd in D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service)
+2026-08-05 17:30:37 INFO  [main] c.b.f.FraudDectectionServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-05 17:30:38 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-05 17:30:38 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-08-05 17:30:38 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-08-05 17:30:38 INFO  [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=7a65f9a3-fbf0-3875-8be7-366061e6ee30
+2026-08-05 17:30:38 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2026-08-05 17:30:38 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-05 17:30:38 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-05 17:30:38 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-05 17:30:38 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1470 ms
+2026-08-05 17:30:40 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2026-08-05 17:30:40 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2026-08-05 17:30:40 INFO  [main] c.b.f.FraudDectectionServiceApplication - Started FraudDectectionServiceApplication in 3.827 seconds (process running for 7.921)
+2026-08-05 17:31:28 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Payload = {amount=100, receiverAccountNumber=000533084565, description=test transfer, id=8abc29bd-f65b-4312-9a2d-21fc5d0c3a5e, senderAccountNumber=365432765514}
+2026-08-05 17:31:28 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Received transaction for fraud check 8abc29bd-f65b-4312-9a2d-21fc5d0c3a5e
+2026-08-05 17:31:28 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check null
+2026-08-05 17:31:28 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Error while processing transaction
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
+	at com.banking.frauddectectionservice.service.FraudDetectionService.checkTransaction(FraudDetectionService.java:47)
+	at com.banking.frauddectectionservice.service.FraudDetectionEventConsumer.consumeTransactionInitiated(FraudDetectionEventConsumer.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:475)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-05 17:32:26 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-08-05 17:32:26 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-05 17:32:26 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-05 17:32:29 INFO  [main] c.b.f.FraudDectectionServiceApplication - Starting FraudDectectionServiceApplication using Java 21.0.8 with PID 780 (D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service\target\classes started by jangd in D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service)
+2026-08-05 17:32:29 INFO  [main] c.b.f.FraudDectectionServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-05 17:32:30 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-05 17:32:30 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-08-05 17:32:30 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2026-08-05 17:32:30 INFO  [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=7a65f9a3-fbf0-3875-8be7-366061e6ee30
+2026-08-05 17:32:31 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2026-08-05 17:32:31 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-05 17:32:31 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-05 17:32:31 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-05 17:32:31 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1154 ms
+2026-08-05 17:32:32 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2026-08-05 17:32:32 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2026-08-05 17:32:32 INFO  [main] c.b.f.FraudDectectionServiceApplication - Started FraudDectectionServiceApplication in 2.962 seconds (process running for 3.618)
+2026-08-05 17:32:40 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Payload = {amount=100, receiverAccountNumber=000533084565, description=test transfer, id=d918d1f1-3f73-40fc-9181-4fdba3b846d5, senderAccountNumber=365432765514}
+2026-08-05 17:32:40 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Received transaction for fraud check d918d1f1-3f73-40fc-9181-4fdba3b846d5
+2026-08-05 17:32:40 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check d918d1f1-3f73-40fc-9181-4fdba3b846d5
+2026-08-05 17:32:40 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Error while processing transaction
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.math.BigDecimal (java.lang.Integer and java.math.BigDecimal are in module java.base of loader 'bootstrap')
+	at com.banking.frauddectectionservice.service.FraudDetectionService.checkTransaction(FraudDetectionService.java:50)
+	at com.banking.frauddectectionservice.service.FraudDetectionEventConsumer.consumeTransactionInitiated(FraudDetectionEventConsumer.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:475)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-05 17:34:48 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-08-05 17:34:48 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-05 17:34:48 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-05 17:34:52 INFO  [main] c.b.f.FraudDectectionServiceApplication - Starting FraudDectectionServiceApplication using Java 21.0.8 with PID 27760 (D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service\target\classes started by jangd in D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service)
+2026-08-05 17:34:52 INFO  [main] c.b.f.FraudDectectionServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-05 17:34:53 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-05 17:34:53 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-08-05 17:34:53 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-08-05 17:34:53 INFO  [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=7a65f9a3-fbf0-3875-8be7-366061e6ee30
+2026-08-05 17:34:53 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2026-08-05 17:34:53 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-05 17:34:53 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-05 17:34:54 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-05 17:34:54 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1296 ms
+2026-08-05 17:34:56 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2026-08-05 17:34:56 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2026-08-05 17:34:57 INFO  [main] c.b.f.FraudDectectionServiceApplication - Started FraudDectectionServiceApplication in 4.897 seconds (process running for 5.903)
+2026-08-05 17:35:00 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Payload = {amount=10, receiverAccountNumber=000533084565, description=test transfer, id=27302a0c-b204-45de-8bc4-026d1e5d6af7, senderAccountNumber=365432765514}
+2026-08-05 17:35:00 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Received transaction for fraud check 27302a0c-b204-45de-8bc4-026d1e5d6af7
+2026-08-05 17:35:00 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check 27302a0c-b204-45de-8bc4-026d1e5d6af7
+2026-08-05 17:35:00 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Checking transaction for fraud 27302a0c-b204-45de-8bc4-026d1e5d6af7
+2026-08-05 17:35:00 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Sender account number 365432765514
+2026-08-05 17:35:00 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - checking transaction 27302a0c-b204-45de-8bc4-026d1e5d6af7 account 365432765514 amount 10 balance 
+2026-08-05 17:35:00 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Error while processing transaction
+java.lang.NullPointerException: Cannot invoke "org.springframework.data.redis.core.RedisTemplate.opsForValue()" because "this.redisTemplate" is null
+	at com.banking.frauddectectionservice.service.FraudDetectionService.isVelocityExceeded(FraudDetectionService.java:119)
+	at com.banking.frauddectectionservice.service.FraudDetectionService.performFraudCheck(FraudDetectionService.java:96)
+	at com.banking.frauddectectionservice.service.FraudDetectionService.checkTransaction(FraudDetectionService.java:60)
+	at com.banking.frauddectectionservice.service.FraudDetectionEventConsumer.consumeTransactionInitiated(FraudDetectionEventConsumer.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:475)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-05 17:36:02 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Payload = {amount=50, receiverAccountNumber=000533084565, description=test transfer, id=396635c1-b5fc-4726-8a17-42cbdbf97ed2, senderAccountNumber=365432765514}
+2026-08-05 17:36:02 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Received transaction for fraud check 396635c1-b5fc-4726-8a17-42cbdbf97ed2
+2026-08-05 17:36:02 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check 396635c1-b5fc-4726-8a17-42cbdbf97ed2
+2026-08-05 17:36:02 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Checking transaction for fraud 396635c1-b5fc-4726-8a17-42cbdbf97ed2
+2026-08-05 17:36:02 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Sender account number 365432765514
+2026-08-05 17:36:02 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - checking transaction 396635c1-b5fc-4726-8a17-42cbdbf97ed2 account 365432765514 amount 50 balance 
+2026-08-05 17:36:02 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Error while processing transaction
+java.lang.NullPointerException: Cannot invoke "org.springframework.data.redis.core.RedisTemplate.opsForValue()" because "this.redisTemplate" is null
+	at com.banking.frauddectectionservice.service.FraudDetectionService.isVelocityExceeded(FraudDetectionService.java:119)
+	at com.banking.frauddectectionservice.service.FraudDetectionService.performFraudCheck(FraudDetectionService.java:96)
+	at com.banking.frauddectectionservice.service.FraudDetectionService.checkTransaction(FraudDetectionService.java:60)
+	at com.banking.frauddectectionservice.service.FraudDetectionEventConsumer.consumeTransactionInitiated(FraudDetectionEventConsumer.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:475)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-05 17:38:02 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-08-05 17:38:02 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-05 17:38:02 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-05 17:38:05 INFO  [main] c.b.f.FraudDectectionServiceApplication - Starting FraudDectectionServiceApplication using Java 21.0.8 with PID 34444 (D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service\target\classes started by jangd in D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service)
+2026-08-05 17:38:05 INFO  [main] c.b.f.FraudDectectionServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-05 17:38:06 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-05 17:38:06 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-08-05 17:38:06 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-08-05 17:38:06 INFO  [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=7a65f9a3-fbf0-3875-8be7-366061e6ee30
+2026-08-05 17:38:06 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2026-08-05 17:38:06 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-05 17:38:06 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-05 17:38:06 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-05 17:38:06 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1284 ms
+2026-08-05 17:38:08 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2026-08-05 17:38:08 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2026-08-05 17:38:09 INFO  [main] c.b.f.FraudDectectionServiceApplication - Started FraudDectectionServiceApplication in 4.077 seconds (process running for 4.757)
+2026-08-05 17:38:15 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Payload = {amount=20, receiverAccountNumber=000533084565, description=test transfer, id=7e29bcf6-3a48-4651-aecf-c2fb6b52ca4b, senderAccountNumber=365432765514}
+2026-08-05 17:38:15 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Received transaction for fraud check 7e29bcf6-3a48-4651-aecf-c2fb6b52ca4b
+2026-08-05 17:38:15 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check 7e29bcf6-3a48-4651-aecf-c2fb6b52ca4b
+2026-08-05 17:38:15 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Checking transaction for fraud 7e29bcf6-3a48-4651-aecf-c2fb6b52ca4b
+2026-08-05 17:38:15 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Sender account number 365432765514
+2026-08-05 17:38:15 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - checking transaction 7e29bcf6-3a48-4651-aecf-c2fb6b52ca4b account 365432765514 amount 20 balance 
+2026-08-05 17:38:16 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Velocity check for account 365432765514 count 1
+2026-08-05 17:38:16 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Amount check for account 365432765514 amount 20 avgAmount 1 threshold 5.0
+2026-08-05 17:38:16 WARN  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Suspicious Activity detected: account 365432765514  reason  Unusual transsaction amount  exceeds 3x your average amount  - requesting OTP verification,
+2026-08-05 17:38:16 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Error while processing transaction
+java.lang.NullPointerException: Cannot invoke "org.springframework.kafka.core.KafkaTemplate.send(String, Object, Object)" because "this.kafkaTemplate" is null
+	at com.banking.frauddectectionservice.service.FraudDetectionService.checkTransaction(FraudDetectionService.java:77)
+	at com.banking.frauddectectionservice.service.FraudDetectionEventConsumer.consumeTransactionInitiated(FraudDetectionEventConsumer.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:475)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-05 17:38:54 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Payload = {amount=20, receiverAccountNumber=000533084565, description=test transfer, id=2881d829-9d72-46cb-85af-f2c2344645b3, senderAccountNumber=709025665451}
+2026-08-05 17:38:54 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Received transaction for fraud check 2881d829-9d72-46cb-85af-f2c2344645b3
+2026-08-05 17:38:54 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check 2881d829-9d72-46cb-85af-f2c2344645b3
+2026-08-05 17:38:54 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Checking transaction for fraud 2881d829-9d72-46cb-85af-f2c2344645b3
+2026-08-05 17:38:54 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Sender account number 709025665451
+2026-08-05 17:38:54 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - checking transaction 2881d829-9d72-46cb-85af-f2c2344645b3 account 709025665451 amount 20 balance 
+2026-08-05 17:38:55 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Velocity check for account 709025665451 count 1
+2026-08-05 17:38:55 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Amount check for account 709025665451 amount 20 avgAmount 1 threshold 5.0
+2026-08-05 17:38:55 WARN  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Suspicious Activity detected: account 709025665451  reason  Unusual transsaction amount  exceeds 3x your average amount  - requesting OTP verification,
+2026-08-05 17:38:55 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Error while processing transaction
+java.lang.NullPointerException: Cannot invoke "org.springframework.kafka.core.KafkaTemplate.send(String, Object, Object)" because "this.kafkaTemplate" is null
+	at com.banking.frauddectectionservice.service.FraudDetectionService.checkTransaction(FraudDetectionService.java:77)
+	at com.banking.frauddectectionservice.service.FraudDetectionEventConsumer.consumeTransactionInitiated(FraudDetectionEventConsumer.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:475)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-05 17:39:04 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-08-05 17:39:05 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-05 17:39:05 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-05 17:39:08 INFO  [main] c.b.f.FraudDectectionServiceApplication - Starting FraudDectectionServiceApplication using Java 21.0.8 with PID 5712 (D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service\target\classes started by jangd in D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service)
+2026-08-05 17:39:08 INFO  [main] c.b.f.FraudDectectionServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-05 17:39:09 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-05 17:39:09 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-08-05 17:39:09 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2026-08-05 17:39:09 INFO  [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=7a65f9a3-fbf0-3875-8be7-366061e6ee30
+2026-08-05 17:39:09 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2026-08-05 17:39:09 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-05 17:39:09 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-05 17:39:09 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-05 17:39:09 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1359 ms
+2026-08-05 17:39:11 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2026-08-05 17:39:11 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2026-08-05 17:39:11 INFO  [main] c.b.f.FraudDectectionServiceApplication - Started FraudDectectionServiceApplication in 3.288 seconds (process running for 4.042)
+2026-08-05 17:39:17 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Payload = {amount=20, receiverAccountNumber=000533084565, description=test transfer, id=b3dc3e2c-31c3-4b4d-8e8b-c93a5cfe0588, senderAccountNumber=709025665451}
+2026-08-05 17:39:17 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Received transaction for fraud check b3dc3e2c-31c3-4b4d-8e8b-c93a5cfe0588
+2026-08-05 17:39:17 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check b3dc3e2c-31c3-4b4d-8e8b-c93a5cfe0588
+2026-08-05 17:39:17 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Checking transaction for fraud b3dc3e2c-31c3-4b4d-8e8b-c93a5cfe0588
+2026-08-05 17:39:17 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Sender account number 709025665451
+2026-08-05 17:39:17 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - checking transaction b3dc3e2c-31c3-4b4d-8e8b-c93a5cfe0588 account 709025665451 amount 20 balance 
+2026-08-05 17:39:18 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Velocity check for account 709025665451 count 2
+2026-08-05 17:39:18 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Error while processing transaction
+org.springframework.data.redis.RedisSystemException: Error in execution
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:52)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:50)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:40)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:38)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:310)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.await(LettuceConnection.java:1012)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.lambda$doInvoke$3(LettuceConnection.java:447)
+	at org.springframework.data.redis.connection.lettuce.LettuceInvoker$Synchronizer.invoke(LettuceInvoker.java:665)
+	at org.springframework.data.redis.connection.lettuce.LettuceInvoker.just(LettuceInvoker.java:94)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.incr(LettuceStringCommands.java:182)
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.incr(DefaultedRedisConnection.java:404)
+	at org.springframework.data.redis.connection.DefaultStringRedisConnection.incr(DefaultStringRedisConnection.java:516)
+	at org.springframework.data.redis.core.DefaultValueOperations.lambda$increment$4(DefaultValueOperations.java:89)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:413)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:380)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:117)
+	at org.springframework.data.redis.core.DefaultValueOperations.increment(DefaultValueOperations.java:89)
+	at com.banking.frauddectectionservice.service.FraudDetectionService.isAmountSuspicious(FraudDetectionService.java:140)
+	at com.banking.frauddectectionservice.service.FraudDetectionService.performFraudCheck(FraudDetectionService.java:106)
+	at com.banking.frauddectectionservice.service.FraudDetectionService.checkTransaction(FraudDetectionService.java:65)
+	at com.banking.frauddectectionservice.service.FraudDetectionEventConsumer.consumeTransactionInitiated(FraudDetectionEventConsumer.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.kafka.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:78)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:475)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invoke(MessagingMessageListenerAdapter.java:421)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:85)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:50)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2865)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2777)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2614)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2503)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2152)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1528)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1466)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1335)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: io.lettuce.core.RedisCommandExecutionException: ERR value is not an integer or out of range
+	at io.lettuce.core.internal.ExceptionFactory.createExecutionException(ExceptionFactory.java:151)
+	at io.lettuce.core.internal.ExceptionFactory.createExecutionException(ExceptionFactory.java:120)
+	at io.lettuce.core.protocol.AsyncCommand.completeResult(AsyncCommand.java:124)
+	at io.lettuce.core.protocol.AsyncCommand.complete(AsyncCommand.java:115)
+	at io.lettuce.core.protocol.CommandWrapper.complete(CommandWrapper.java:67)
+	at io.lettuce.core.protocol.CommandHandler.complete(CommandHandler.java:769)
+	at io.lettuce.core.protocol.CommandHandler.decode(CommandHandler.java:704)
+	at io.lettuce.core.protocol.CommandHandler.channelRead(CommandHandler.java:621)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+2026-08-05 17:46:31 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-08-05 17:46:32 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-05 17:46:32 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-05 17:46:35 INFO  [main] c.b.f.FraudDectectionServiceApplication - Starting FraudDectectionServiceApplication using Java 21.0.8 with PID 20696 (D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service\target\classes started by jangd in D:\spring boot\banking-system\fraud-dectection-service\fraud-dectection-service)
+2026-08-05 17:46:35 INFO  [main] c.b.f.FraudDectectionServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-05 17:46:36 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-05 17:46:36 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-08-05 17:46:36 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2026-08-05 17:46:36 INFO  [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=7a65f9a3-fbf0-3875-8be7-366061e6ee30
+2026-08-05 17:46:36 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2026-08-05 17:46:36 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-05 17:46:36 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-05 17:46:36 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-05 17:46:36 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1234 ms
+2026-08-05 17:46:37 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2026-08-05 17:46:38 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2026-08-05 17:46:38 INFO  [main] c.b.f.FraudDectectionServiceApplication - Started FraudDectectionServiceApplication in 3.199 seconds (process running for 3.936)
+2026-08-05 17:47:53 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Payload = {amount=20, receiverAccountNumber=000533084565, description=test transfer, id=fd89cd76-0997-4759-b141-c8f21a02c87e, senderAccountNumber=709025665451}
+2026-08-05 17:47:53 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Received transaction for fraud check fd89cd76-0997-4759-b141-c8f21a02c87e
+2026-08-05 17:47:53 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check fd89cd76-0997-4759-b141-c8f21a02c87e
+2026-08-05 17:47:53 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Checking transaction for fraud fd89cd76-0997-4759-b141-c8f21a02c87e
+2026-08-05 17:47:53 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Sender account number 709025665451
+2026-08-05 17:47:53 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - checking transaction fd89cd76-0997-4759-b141-c8f21a02c87e account 709025665451 amount 20 balance 
+2026-08-05 17:47:54 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Velocity check for account 709025665451 count 1
+2026-08-05 17:47:54 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Balance check for account balance 940.00 amount 20 maxBalancePercentage 846.000
+2026-08-05 17:47:54 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Transaction is clean fd89cd76-0997-4759-b141-c8f21a02c87e
+2026-08-05 17:52:49 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Payload = {amount=20, receiverAccountNumber=000533084565, description=test transfer, id=36175a4e-571f-47e0-9dfd-5b088b83e60f, senderAccountNumber=709025665451}
+2026-08-05 17:52:49 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Received transaction for fraud check 36175a4e-571f-47e0-9dfd-5b088b83e60f
+2026-08-05 17:52:49 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check 36175a4e-571f-47e0-9dfd-5b088b83e60f
+2026-08-05 17:52:49 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Checking transaction for fraud 36175a4e-571f-47e0-9dfd-5b088b83e60f
+2026-08-05 17:52:49 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Sender account number 709025665451
+2026-08-05 17:52:49 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - checking transaction 36175a4e-571f-47e0-9dfd-5b088b83e60f account 709025665451 amount 20 balance 
+2026-08-05 17:52:49 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Velocity check for account 709025665451 count 1
+2026-08-05 17:52:49 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Amount check for account 709025665451 amount 20 avgAmount 20 threshold 100.0
+2026-08-05 17:52:49 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Balance check for account balance 920.00 amount 20 maxBalancePercentage 828.000
+2026-08-05 17:52:49 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Transaction is clean 36175a4e-571f-47e0-9dfd-5b088b83e60f
+2026-08-05 17:56:08 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Payload = {amount=20, receiverAccountNumber=000533084565, description=test transfer, id=15674c32-5984-4521-8d4a-437176d12e1c, senderAccountNumber=709025665451}
+2026-08-05 17:56:08 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Received transaction for fraud check 15674c32-5984-4521-8d4a-437176d12e1c
+2026-08-05 17:56:08 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check 15674c32-5984-4521-8d4a-437176d12e1c
+2026-08-05 17:56:08 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Checking transaction for fraud 15674c32-5984-4521-8d4a-437176d12e1c
+2026-08-05 17:56:08 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Sender account number 709025665451
+2026-08-05 17:56:08 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - checking transaction 15674c32-5984-4521-8d4a-437176d12e1c account 709025665451 amount 20 balance 
+2026-08-05 17:56:08 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Velocity check for account 709025665451 count 1
+2026-08-05 17:56:08 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Amount check for account 709025665451 amount 20 avgAmount 20.00 threshold 100.000
+2026-08-05 17:56:08 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Balance check for account balance 900.00 amount 20 maxBalancePercentage 810.000
+2026-08-05 17:56:08 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Transaction is clean 15674c32-5984-4521-8d4a-437176d12e1c
+2026-08-05 22:40:56 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Payload = {amount=20, receiverAccountNumber=000533084565, description=test transfer, id=d4eaeb30-130c-46b9-a151-fc6dec036200, senderAccountNumber=709025665451}
+2026-08-05 22:40:56 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Received transaction for fraud check d4eaeb30-130c-46b9-a151-fc6dec036200
+2026-08-05 22:40:56 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check d4eaeb30-130c-46b9-a151-fc6dec036200
+2026-08-05 22:40:56 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Checking transaction for fraud d4eaeb30-130c-46b9-a151-fc6dec036200
+2026-08-05 22:40:56 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Sender account number 709025665451
+2026-08-05 22:40:56 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - checking transaction d4eaeb30-130c-46b9-a151-fc6dec036200 account 709025665451 amount 20 balance 
+2026-08-05 22:40:56 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Velocity check for account 709025665451 count 1
+2026-08-05 22:40:56 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Amount check for account 709025665451 amount 20 avgAmount 20.00 threshold 100.000
+2026-08-05 22:40:56 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Balance check for account balance 880.00 amount 20 maxBalancePercentage 792.000
+2026-08-05 22:40:56 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Transaction is clean d4eaeb30-130c-46b9-a151-fc6dec036200
+2026-08-05 22:44:16 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Payload = {amount=20, receiverAccountNumber=000533084565, description=test transfer, id=afb50da4-75de-49f8-9092-ff1ebaad5072, senderAccountNumber=709025665451}
+2026-08-05 22:44:16 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Received transaction for fraud check afb50da4-75de-49f8-9092-ff1ebaad5072
+2026-08-05 22:44:16 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check afb50da4-75de-49f8-9092-ff1ebaad5072
+2026-08-05 22:44:16 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Checking transaction for fraud afb50da4-75de-49f8-9092-ff1ebaad5072
+2026-08-05 22:44:16 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Sender account number 709025665451
+2026-08-05 22:44:16 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - checking transaction afb50da4-75de-49f8-9092-ff1ebaad5072 account 709025665451 amount 20 balance 
+2026-08-05 22:44:16 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Velocity check for account 709025665451 count 1
+2026-08-05 22:44:16 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Amount check for account 709025665451 amount 20 avgAmount 20.00 threshold 100.000
+2026-08-05 22:44:16 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Balance check for account balance 860.00 amount 20 maxBalancePercentage 774.000
+2026-08-05 22:44:16 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Transaction is clean afb50da4-75de-49f8-9092-ff1ebaad5072
+2026-08-05 22:45:06 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Payload = {amount=20, receiverAccountNumber=000533084565, description=test transfer, id=53b81e2d-2b18-4079-8125-d1ba80a70b16, senderAccountNumber=709025665451}
+2026-08-05 22:45:06 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.s.FraudDetectionEventConsumer - Received transaction for fraud check 53b81e2d-2b18-4079-8125-d1ba80a70b16
+2026-08-05 22:45:06 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Received transaction for fraud check 53b81e2d-2b18-4079-8125-d1ba80a70b16
+2026-08-05 22:45:06 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Checking transaction for fraud 53b81e2d-2b18-4079-8125-d1ba80a70b16
+2026-08-05 22:45:06 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Sender account number 709025665451
+2026-08-05 22:45:07 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - checking transaction 53b81e2d-2b18-4079-8125-d1ba80a70b16 account 709025665451 amount 20 balance 
+2026-08-05 22:45:07 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Velocity check for account 709025665451 count 2
+2026-08-05 22:45:07 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Amount check for account 709025665451 amount 20 avgAmount 20.00 threshold 100.000
+2026-08-05 22:45:07 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Balance check for account balance 840.00 amount 20 maxBalancePercentage 756.000
+2026-08-05 22:45:07 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.b.f.service.FraudDetectionService - Transaction is clean 53b81e2d-2b18-4079-8125-d1ba80a70b16
